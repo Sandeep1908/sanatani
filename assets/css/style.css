@@ -1,0 +1,836 @@
+/*================================================================================
+    Item Name: Crypto ICO - Cryptocurrency Website Landing Page HTML + Dashboard Template
+    Version: 1.0
+    Author: PIXINVENT
+    Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.head-area .logo-wrapper .crypto-logo .crypto-logo-img {
+  top: 26%;
+  left: 24%;
+}
+
+.navbar .navbar-brand .brand-text {
+  text-transform: none;
+}
+
+.white-paper-btn {
+  float: left;
+}
+
+.pitch-deck-btn {
+  margin-left: 20px;
+  float: left;
+}
+
+p {
+  text-align: justify;
+}
+
+ol.nbullets {
+  list-style: none;
+  counter-reset: li;
+  list-style-position: inside;
+  padding-left: 0.9rem;
+}
+
+ol.nbullets li::before {
+  content: counter(li);
+  color: #ffffff;
+  display: inline-block;
+  width: 1.5em;
+  float: left;
+  position: absolute;
+  left: 0px;
+  text-align: center;
+  line-height: 23px;
+  width: 20px;
+  height: 20px;
+  background: #ffc185;
+  border-radius: 999px;
+  margin-left: 12px;
+}
+
+ol.nbullets li {
+  counter-increment: li;
+}
+
+ol.nbullets li {
+  color: #7d7d7d;
+  font-size: .938rem;
+  margin-left: 22px;
+}
+
+.heading .content-desc {
+  text-align: center;
+}
+
+.team .profile .name {
+  font-size: 0.9em;
+}
+
+.subscribe-desc {
+  text-align: center;
+}
+
+.team .profile img.logo {
+  margin-left: 10px;
+  height: 19px;
+}
+
+.team .profile img.logo-medium {
+  margin-left: 10px;
+  height: 30px;
+}
+
+.team .profile img.logo-big {
+  margin-left: 10px;
+  height: 50px;
+  margin-top: 8px;
+}
+
+.modal-content img.logo {
+  margin-top: 20px;
+  height: 30px;
+}
+
+.modal-content img.logo-big {
+  margin-top: 20px;
+  height: 120px;
+}
+
+.img-center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.img-topspace {
+  margin-top: 40px;
+}
+
+.testimonial-quote {
+  font-size: 16px;
+}
+
+.testimonial-quote blockquote {
+  /* Negate theme styles */
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: none;
+  color: gray;
+  font-family: Georgia, serif;
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.4 !important;
+  margin: 0;
+  position: relative;
+  text-shadow: 0 1px white;
+  z-index: 600;
+}
+
+.testimonial-quote blockquote * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.testimonial-quote blockquote p {
+  line-height: 1.4 !important;
+}
+
+.testimonial-quote blockquote p:first-child:before {
+  content: '\201C';
+  color: #ffc185;
+  font-size: 7.5em;
+  font-weight: 700;
+  opacity: .3;
+  position: absolute;
+  top: -.4em;
+  left: -.2em;
+  text-shadow: none;
+  z-index: -300;
+}
+
+.testimonial-quote img {
+  border: 3px solid #B701F6;
+  border-radius: 50%;
+  display: block;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: -.2em;
+  left: 0;
+}
+
+.testimonial-quote p {
+  font-size: .8em;
+}
+
+.testimonial-quote cite {
+  color: gray;
+  display: block;
+  font-size: .8em;
+}
+
+.testimonial-quote cite span {
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 0 1px white;
+}
+
+.testimonial-quote {
+  position: relative;
+}
+
+.testimonial-quote .quote-container {
+  padding-left: 160px;
+}
+
+.testimonial-quote.right .quote-container {
+  padding-left: 0;
+  padding-right: 160px;
+}
+
+.testimonial-quote.right img {
+  left: auto;
+  right: 0;
+}
+
+.testimonial-quote.right cite {
+  text-align: right;
+}
+
+.head-area .head-content h3 {
+  font-size: 1em;
+}
+
+.head-area .head-content h3.subtitle {
+  font-size: 1em;
+  padding-top: 0 !important;
+}
+
+.row-image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 90%;
+}
+
+.contact .contact-info li span {
+  font-size: 1.05rem;
+}
+
+.row table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.row td {
+  text-align: left;
+  padding: 5px;
+}
+
+.heading {
+  margin-bottom: 0;
+}
+
+img#wellness-market {
+  width: 60%;
+}
+
+.section-padding {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.footnote {
+  font-size: 0.75em;
+  padding-top: 30px;
+}
+
+#h4-allocation-funds {
+  text-align: center;
+  padding-top: 2em;
+}
+
+#p-allocation-funds {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.clock-counter {
+  padding-top: 0.5em;
+}
+
+/* Roadmap */
+.Roadmap__content {
+  position: relative;
+  padding-left: 338px;
+  padding-top: 16px;
+}
+
+.Roadmap__item {
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.Roadmap__item:first-child::after {
+  height: 80%;
+}
+
+.Roadmap__item::after {
+  content: "";
+  display: block;
+  width: 3px;
+  min-height: 30px;
+  height: 55%;
+  position: absolute;
+  top: 28px;
+  left: -54px;
+  background: #77362b;
+  bottom: 0;
+  margin: auto;
+  -webkit-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.Roadmap__item.Roadmap__item_current::before {
+  content: " ";
+  background: -webkit-linear-gradient(45deg, #9e48cd, #DD4867);
+  background: -moz-linear-gradient(45deg, #9e48cd, #DD4867);
+  background: -o-linear-gradient(45deg, #9e48cd, #DD4867);
+  background: linear-gradient(45deg, #9e48cd, #DD4867);
+  border: none;
+  -webkit-box-shadow: 0px 0px 20px 0 #9e48cd;
+  box-shadow: 0px 0px 20px 0 #9e48cd;
+}
+
+.Roadmap__item.Roadmap__item_completed::before {
+  content: "\e64c";
+  font-family: themify;
+  font-size: 1.25rem;
+  line-height: 35px;
+  padding-left: 8px;
+  color: #ffffff;
+  background: -webkit-linear-gradient(45deg, #ffc185, #77362b);
+  background: -moz-linear-gradient(45deg, #ffc185, #77362b);
+  background: -o-linear-gradient(45deg, #ffc185, #77362b);
+  background: linear-gradient(45deg, #ffc185, #77362b);
+  border: none;
+}
+
+.Roadmap__item::before {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid #ffc185;
+  position: absolute;
+  top: -5px;
+  left: -70px;
+  opacity: .4;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.Roadmap__item_active::before {
+  opacity: 1;
+}
+
+.Roadmap__item_current .Roadmap__category {
+  color: #77362b;
+  font-size: 21px;
+  line-height: 1.19;
+  opacity: .6;
+  letter-spacing: -.3px;
+}
+
+.Roadmap__category {
+  font-size: 26px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  letter-spacing: -.6px;
+  color: #77362b;
+  position: absolute;
+  top: 0;
+  left: -320px;
+  width: 225px;
+  text-align: right;
+}
+
+.Roadmap__item:first-child::after {
+  height: 68%;
+}
+
+.Roadmap__title {
+  font-weight: bold;
+}
+
+.countdown-soon {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin: 20px 0 0 -20px;
+}
+
+.countdown-soon>li {
+  float: none;
+  display: inline-block;
+  width: 110px;
+  margin: 0 15px;
+}
+
+.countdown-soon>li>span {
+  float: none;
+  display: inline-block;
+  margin: 0px;
+  width: 110px;
+  height: 110px;
+  text-align: center;
+  border: #ffc185;
+  border-radius: 50%;
+  position: relative;
+  z-index: 0;
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+  line-height: 107px;
+  background: linear-gradient(135deg, #77362b, #ffc185);
+  opacity: 0.6;
+  background: -webkit-linear-gradient(135deg, #77362b, #ffc185);
+  background: -moz-linear-gradient(135deg, #77362b, #ffc185);
+  background: -o-linear-gradient(135deg, #77362b, #ffc185);
+  background: -webkit-linear-gradient(135deg, #77362b, #ffc185);
+  background: -moz-linear-gradient(135deg, #77362b, #ffc185);
+  background: -o-linear-gradient(135deg, #77362b, #ffc185);
+   opacity: 0.6;
+}
+
+.countdown-soon>li>p {
+  float: left;
+  width: 100%;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.escrow .steps {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 70px 0 0;
+  padding: 0;
+}
+
+.escrow {
+  color: #212425;
+  text-align: center;
+}
+
+.escrow .steps li.half {
+  -webkit-box-flex: .7;
+  -webkit-flex: .7;
+  -moz-box-flex: .7;
+  -ms-flex: .7;
+  flex: .7;
+}
+
+.escrow .steps li {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  float: left;
+  padding-top: 80px;
+  position: relative;
+  width: 200px;
+}
+
+.escrow .steps li::before {
+  left: 50%;
+  right: 0;
+  z-index: 1;
+}
+
+.escrow .steps {
+  list-style: none;
+}
+
+.escrow .steps .icon-token {
+  background: url("../../assets/logos/Sanatani\ new\ logo-01.png") no-repeat center;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-background-size: 38px 38px;
+  background-size: 38px;
+  display: inline-block;
+  height: 64px;
+  vertical-align: middle;
+  width: 64px;
+}
+
+.escrow .steps .icon-bitcoin {
+  background: url("../../theme-assets/images/bitcoin-logo.svg") no-repeat center;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-background-size: 38px 38px;
+  background-size: 38px;
+  display: inline-block;
+  height: 64px;
+  vertical-align: middle;
+  width: 64px;
+}
+
+.escrow .steps .icon-bank-account {
+  background: url("../../theme-assets/images/bank-account.svg") no-repeat center;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-background-size: 38px 38px;
+  background-size: 38px;
+  display: inline-block;
+  height: 64px;
+  vertical-align: middle;
+  width: 64px;
+}
+
+.escrow .steps .icon-contract {
+  background: url("../../theme-assets/images/contract.svg") no-repeat center;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-background-size: 38px 38px;
+  background-size: 38px;
+  display: inline-block;
+  height: 64px;
+  vertical-align: middle;
+  width: 64px;
+}
+
+.escrow .steps .icon-checklist {
+  background: url("../../theme-assets/images/checklist.svg") no-repeat center;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-background-size: 38px 38px;
+  background-size: 38px;
+  display: inline-block;
+  height: 64px;
+  vertical-align: middle;
+  width: 64px;
+}
+
+.escrow .steps svg,
+.escrow .steps .icon-token,
+.escrow .steps svg,
+.escrow .steps .icon-bitcoin,
+.escrow .steps svg,
+.escrow .steps .icon-bank-account,
+.escrow .steps svg,
+.escrow .steps .icon-contract,
+.escrow .steps svg,
+.escrow .steps .icon-checklist {
+  left: 50%;
+  margin-left: -32px;
+  position: absolute;
+  top: 0;
+}
+
+.escrow .steps {
+  list-style: none;
+}
+
+.escrow {
+  color: #212425;
+  text-align: center;
+}
+
+.escrow .steps li .dot {
+  background: #ffc185;
+  border-radius: 100%;
+  content: '';
+  height: 12px;
+  left: 50%;
+  margin: -4px 0 0 -6px;
+  position: absolute;
+  top: 70px;
+  width: 12px;
+  z-index: 2;
+}
+
+.escrow .steps h5.bold {
+  font-weight: 600;
+}
+
+.escrow .steps h5 {
+  font-size: 0.938rem;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin: 20px 0 10px;
+  text-align: center;
+}
+
+.escrow h5 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.escrow .steps li:first-child::after {
+  display: none;
+}
+
+.escrow .steps li::after {
+  left: 0;
+  right: 50%;
+  z-index: 1;
+}
+
+.escrow .steps li::before,
+.escrow .steps li::after {
+  background: #77362b;
+  content: '';
+  height: 4px;
+  position: absolute;
+  top: 70px;
+}
+
+.escrow .steps .signatures {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8px;
+}
+
+.escrow .steps .signatures .signature {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-right: 10px;
+}
+
+.escrow .steps .signatures .name {
+  color: #8f9b9c;
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.escrow .steps .signatures .value {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.escrow .steps li .tick::before {
+  content: "\e64c";
+  font-family: themify;
+  font-size: 1.25rem;
+  height: 32px;
+  left: 50%;
+  margin: -14px 0 0 -16px;
+  position: absolute;
+  top: 70px;
+  width: 32px;
+  color: #ffffff;
+  background: -webkit-linear-gradient(45deg, #ffc185, #77362b);
+  background: -moz-linear-gradient(45deg, #ffc185, #77362b);
+  background: -o-linear-gradient(45deg, #ffc185, #77362b);
+  background: linear-gradient(45deg, #ffc185, #77362b);
+  border: none;
+  border-radius: 25px;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.escrow .steps li:last-child::before {
+  display: none;
+}
+
+@media (max-width: 1499.98px) and (min-width: 1200px) {
+  .head-area .head-content .banner-content h3 {
+    padding-top: 1rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .head-area .logo-wrapper .crypto-logo .crypto-logo-img {
+    top: 21%;
+    left: 27%;
+  }
+
+  .team .team-img {
+    height: 143px;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 992px) {
+  .head-area .head-content .logo-wrapper .crypto-logo .crypto-logo-img {
+    left: 26%;
+    top: 21%;
+  }
+
+  .Roadmap__content {
+    padding-left: 100px;
+    padding-top: 50px;
+  }
+
+  .Roadmap__category {
+    top: -32px;
+    left: 0px;
+    width: 225px;
+    text-align: left;
+  }
+
+  .about .content-area .what-is-crypto-img img {
+    width: 70%;
+  }
+
+  .escrow {
+    padding: 50px 0;
+  }
+
+  .escrow .steps {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .escrow .steps li {
+    padding: 20px 0 20px 90px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .escrow .steps li.half {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  .escrow .steps li::before,
+  .escrow .steps li::after {
+    height: auto;
+    left: 65px;
+    width: 4px;
+  }
+
+  .escrow .steps li::before {
+    bottom: 0;
+    top: 50%;
+  }
+
+  .escrow .steps li::after {
+    bottom: 50%;
+    top: 0;
+  }
+
+  .escrow .steps li .dot {
+    left: 65px;
+    margin: -6px 0 0 -4px;
+    top: 50%;
+  }
+
+  .escrow .steps li .tick {
+    height: 24px;
+    left: 65px;
+    margin: -12px 0 0 -10px;
+    top: 50%;
+    width: 24px;
+  }
+
+  .escrow .steps h5 {
+    margin: 0;
+    text-align: left;
+  }
+
+  .escrow .steps svg,
+  .escrow .steps .icon-token,
+  .escrow .steps svg,
+  .escrow .steps .icon-bitcoin,
+  .escrow .steps svg,
+  .escrow .steps .icon-bank-account,
+  .escrow .steps svg,
+  .escrow .steps .icon-contract,
+  .escrow .steps svg,
+  .escrow .steps .icon-checklist {
+    left: 0;
+    margin-left: auto;
+    margin-top: -32px;
+    position: absolute;
+    top: 50%;
+  }
+
+  .escrow .steps li .tick::before {
+    height: 30px;
+    left: 65px;
+    margin: -14px 0 0 -12px;
+    top: 50%;
+    width: 30px;
+  }
+
+  .escrow .steps li .tick::before {
+    padding-left: 5px;
+  }
+}
+
+.ico-social {
+  height: 20.5px !important;
+  width: 18.25px !important;
+  padding-bottom: 2px !important;
+}
+
+.modal-body p {
+  font-size: 0.750rem;
+}
+
+.modal-body p.experience {
+  font-size: 0.750rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
